@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="448px" viewBox="0 0 448 448" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>circle stats</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="83.8632812%" y1="89.1220703%" x2="12.9414063%" y2="10.7177734%" id="linearGradient-1">
+            <stop stop-color="#003D7C" offset="0%"></stop>
+            <stop stop-color="#896DD8" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-24.5%" y="-24.5%" width="149.0%" height="149.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="26.1188616" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="14.4892154%" y1="15.4413638%" x2="82.4048913%" y2="87.6061481%" id="linearGradient-3">
+            <stop stop-color="#003D7C" offset="0%"></stop>
+            <stop stop-color="#896DD8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-496.000000, -6440.000000)">
+        <g id="STATS" transform="translate(0.000000, 6384.000000)">
+            <g id="Group-33" transform="translate(560.000000, 120.000000)">
+                <g id="circle-stats">
+                    <circle id="Oval-8" stroke="url(#linearGradient-1)" stroke-width="20" opacity="0.308763587" filter="url(#filter-2)" cx="160" cy="160" r="150"></circle>
+                    <circle id="Oval-8" stroke="url(#linearGradient-3)" stroke-width="8" cx="160" cy="160" r="156"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
