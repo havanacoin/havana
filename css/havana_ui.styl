@@ -61,7 +61,7 @@ t-present(1)
 
 .navbar-blue {
   //background: #1E88E5;
-  background: #123C79;
+  background: #0A1857;
   border: none;
   border-radius: 0;
   color: #fff;
@@ -145,6 +145,11 @@ body {
     input
       width 100%
 
+  .navbar-border
+    border-bottom: 1px solid #fff
+
+
+
 
 @media (min-width: 768px) {
   .navbar-offcanvas .navbar-collapse {
@@ -178,13 +183,18 @@ body {
 
 
 .first_row
-  background url("../img/header2.png")
-  background-image  url("../img/header2.png")
+  background  url("../img/youtube2.png")
+  background-image  url("../img/youtube2.png")
+  //background linear-gradient(rgba(18,60,121, 0.4), rgba(18,60,121.0.9)), url("../img/bond.png")
+  //background-image  linear-gradient(rgba(18,60,121, 0.4), rgba(18,60,121.0.9)), url("../img/bond.png")
+  //background #123c79
   background-size cover
   background-position center
   height 600px
   width 100%
   padding-top 40px
+  background-attachment: fixed
+
 
   .welcome_note
     width: 100%
@@ -375,3 +385,37 @@ body {
   line-height 30px !important
   font-family: 'Roboto', serif;
 }
+
+
+.community
+  background linear-gradient(rgba(16,60,121,0.6), rgba(0,40,180,0.4)), url("../img/community_bg.jpg")
+  background-image linear-gradient(rgba(16,60,121,0.6), rgba(0,40,180,0.4)), url("../img/community_bg.jpg")
+  background-size cover
+  min-height 200px
+  background-attachment fixed
+
+.footer
+  background #0A1857
+  min-height 30px
+  padding-top 10px
+  color #fff
+
+
+
+.socialMenu
+  width 100%
+  height 100%
+
+  ul
+    margin: 0
+    padding: 0
+
+    li
+      display block
+      min-width 80px
+      margin-right 10px
+      float left
+
+      a
+        color #FFF
+        font-family 'Ubuntu', sans-serif

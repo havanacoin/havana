@@ -1,5 +1,5 @@
 {
-  "name": "kpadundun",
+  "name": "havana_ui",
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
@@ -17,6 +17,7 @@
     "typographic": "^2.9.3"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0"
+    "bootstrap": "^4.0.0",
+    "jquery.countup.js": "^1.0.1"
   }
 }
